@@ -4,10 +4,7 @@ pragma solidity ^0.8.19;
 /**
  * @title MockV3Aggregator
  * @notice Based on the FluxAggregator contract
- * @notice Use this contract when you need to test
- * other contract's ability to read data from an
- * aggregator contract, but how the aggregator got
- * its answer is unimportant
+ * @notice Use this contract when you need to test other contract's ability to read data from an aggregator contract.
  */
 contract MockV3Aggregator {
     uint256 public constant VERSION = 0;
